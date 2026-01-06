@@ -10,6 +10,14 @@
   font-optical-sizing: auto;
 }
 
+.container{
+ width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
 .logo h2 {
   font-weight: 900;
   font-size: 45px;
@@ -50,10 +58,9 @@
   margin-bottom: 30px;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
-
 
 /* shared style ends */
 
@@ -67,9 +74,7 @@ header {
 }
 
 nav {
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +128,9 @@ nav .menu a {
   vertical-align: bottom;
 }
 
-#about ,#skills ,#resume{
+#about,
+#skills,
+#resume {
   /* padding: 130px 230px;
   background-color: #FFF8F3;
   border: 1px solid black; */
@@ -131,9 +138,6 @@ nav .menu a {
 }
 
 #about .about-container {
-  margin: 0 auto;
-  max-width: 1140px;
-  width: 71%;
   /* border: 1px solid black; */
   background-color: #fff8f3;
   text-align: center;
@@ -159,12 +163,6 @@ nav .menu a {
   color: #474747;
 }
 
-
-#skills .skill-container {
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
-}
 
 #skills .skill-info {
   display: flex;
@@ -198,51 +196,44 @@ nav .menu a {
   color: #757575;
 }
 
-
-
-#resume .resume-container{
-  max-width: 1140px;
-  width: 71%;
-  margin: 113px auto 0;
+#resume .resume-container {
+  margin-top: 113px;
   display: flex;
   /* justify-content: space-between; */
   gap: 24px;
 }
 
-.resume-container hr{
+.resume-container hr {
   margin: 30px 0;
 }
 
-
-.resume-container .section-title{
+.resume-container .section-title {
   font-size: 30px;
   font-weight: bold;
   color: #474747;
   width: 303px;
   margin-bottom: 30px;
-
 }
 
-.resume-card{
+.resume-card {
   max-width: 511px;
   margin-right: 47px;
 }
 
-.resume-card .card-title{
+.resume-card .card-title {
   font-size: 25px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
-
 }
-.resume-card .card-info{
+.resume-card .card-info {
   font-size: 20px;
   font-weight: 600;
   color: #757575;
   margin-bottom: 20px;
 }
 
-.resume-card .card-text{
+.resume-card .card-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -250,26 +241,23 @@ nav .menu a {
   color: #757575;
 }
 
-footer{
+footer {
   margin-top: 130px;
   background-color: #fff8f3;
   padding: 130px 0;
 }
 
-footer .footer-container{
+footer .footer-container {
   display: flex;
   gap: 117px;
-  justify-content: space-between; 
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
+  justify-content: space-between;
 }
 
-.footer-container .social{
+.footer-container .social {
   max-width: 562px;
 }
 
-.footer-container .social p{
+.footer-container .social p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -277,22 +265,21 @@ footer .footer-container{
   margin-bottom: 30px;
 }
 
-.footer-container h2{
+.footer-container h2 {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
   margin-bottom: 20px;
-
 }
 
-.footer-container .icon a{
+.footer-container .icon a {
   max-width: 120px;
   margin-right: 24px;
   /* gap: 24px; */
 }
 
-.footer-container .form input[type="text"] ,
-.footer-container textarea{
+.footer-container .form input[type="text"],
+.footer-container textarea {
   width: 461px;
   padding: 18px 30px;
   margin-bottom: 24px;
@@ -303,4 +290,3 @@ footer .footer-container{
   line-height: 28px;
   border-radius: 5px;
 }
-
